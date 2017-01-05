@@ -6,6 +6,7 @@ define([
   EventRelay.prototype.bind = function (decorated, container, $container) {
     var self = this;
     var relayEvents = [
+      'blur', 'focus',
       'open', 'opening',
       'close', 'closing',
       'select', 'selecting',
